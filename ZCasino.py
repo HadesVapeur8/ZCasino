@@ -76,7 +76,8 @@ while continuer_partie:  # Le bloc s'exécute tant que la variable est true
     else:
         print("Vous avez ", solde, "$.")
         quitter = input("Souhaitez-vous continuer de jouer? (o/n)")
-        if quitter == "n" or quitter == "N":
+        quitter = quitter.lower()
+        if quitter == "n":
             print("Vous quittez la partie avec", solde, "$. A la prochaine fois!")
             continuer_partie = False
 
