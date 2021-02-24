@@ -3,7 +3,7 @@
 import os
 from random import randrange
 from math import ceil
-from tkinter import *
+
 
 continuer_partie = True  # variable qui détermine quand la partie s' arrêtera
 
