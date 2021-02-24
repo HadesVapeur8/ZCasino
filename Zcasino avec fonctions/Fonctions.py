@@ -86,7 +86,7 @@ def tirage(nb, solde, mise):
     return solde
 
 
-def arret_partie(solde):
+def arret_partie(solde, continuer_partie):
     """Détermine si la partie doit continuer ou s'arrêter."""
     if solde <= 0:
         print("Votre solde est de 0, veuillez rejouer une prochaine fois.")
