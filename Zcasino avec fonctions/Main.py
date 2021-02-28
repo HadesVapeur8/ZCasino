@@ -11,7 +11,7 @@ while continuer_partie:
     nb = Fonctions.entrer_numero()
     mise = Fonctions.entrer_mise(solde)
 
-    # Tirage et résultat
+    # Tirage et gains
     solde = Fonctions.tirage(nb, solde, mise)
 
     # Condition pour continuer la partie
